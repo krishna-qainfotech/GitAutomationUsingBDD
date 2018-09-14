@@ -1,0 +1,19 @@
+package automationtest2.cucumberBasic;
+
+
+
+
+import org.junit.runner.RunWith;
+
+import cucumber.api.CucumberOptions;
+import cucumber.api.junit.Cucumber;
+
+@RunWith(Cucumber.class)
+@CucumberOptions(
+		features = "Feature"
+		,glue = {"stepDefinitons"}
+//		,tags = {"@Test1"}
+		)
+public class AppTest {
+
+}
